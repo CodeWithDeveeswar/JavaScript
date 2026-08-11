@@ -1,3 +1,5 @@
+// Array
+
 let flavors = ["Vanilla", "Butterscortch", "Lavendar", "Chocolate"];
 
 console.log(flavors);
@@ -27,14 +29,17 @@ newArray[3] = "Fourth";
 console.log(newArray);
 console.log(newArray.length);
 
-// Dense & Sparse Array
+// Dense vs Sparse Array
 
-let denseArray = [1, 2, 3, 4, 5]; // Contiguous Memory Location
-//               1004, 1008, 1012, 1016, 1020
+let denseArray = [1, 2, 3, 4, 5];  // Uses contiguous memory locations
 
-// formula = baseAddress + (index * size)
-//           1004 + (0 * 4) = 1004
+// Example Base Address: 1004, 1008, 1012, 1016, 1020 
 
-let sparseArray = [10, 20,, 40,, 60]; // Hash Table or Hash Map
+// Memory Address = Base Address + (index * size)
+//                = 1004 + (0 * 4) = 1004
+
+console.log(denseArray);
+
+let sparseArray = [10, 20,, 40,, 60]; // Uses a Hash Table or Hash Map internally
 
 console.log(sparseArray);

@@ -1,4 +1,4 @@
-// Fetch API 
+// Fetch API using .then() and .catch() 
 
 fetch("https://fakestoreapi.com/users/abcd")
 .then((response) => {
@@ -16,7 +16,7 @@ fetch("https://fakestoreapi.com/users/abcd")
     console.log(error.message);
 })
 
-// Fetch API using Async & Await
+// Fetch API using async & await
 
 async function fetchData(){
     try{

@@ -1,3 +1,5 @@
+// Generator Function
+
 function* generatorFunction(){
     yield "First Val";
     yield "Second Val";

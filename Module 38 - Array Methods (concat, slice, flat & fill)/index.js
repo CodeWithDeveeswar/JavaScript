@@ -1,7 +1,7 @@
+// concat() Method
+
 let arr = [1, 2, 3, 4];
 let arr1 = [4, 5, 6, 7];
-
-// concat() Method
 
 let newArr = arr.concat(arr1);
 let newArr1 = arr.concat(10, 20, 30);

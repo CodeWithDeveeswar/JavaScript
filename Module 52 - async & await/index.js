@@ -1,7 +1,7 @@
-let newPromise = new Promise((fullfilled, failure) => {
-    let dataReceived = false;
+let newPromise = new Promise((fullFilled, failure) => {
+    let dataReceived = true;
     if(dataReceived){
-        fullfilled("Data Fetched Successfully");
+        fullFilled("Data Fetched Successfully");
     }
     else{
         // failure("Data Not Found");

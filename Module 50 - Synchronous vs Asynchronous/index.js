@@ -20,9 +20,9 @@ f3();                 // Synchronous
     Event Loop:
 
     1. Micro Task Queue - First Priority
-        Promise
+       - Promise.then()
 
     2. Macro Task Queue - Second Priority
-        SetTimeOut
-        setInterval
+       - setTimeOut
+       - setInterval
 */

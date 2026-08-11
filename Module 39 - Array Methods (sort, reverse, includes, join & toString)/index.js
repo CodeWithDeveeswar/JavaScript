@@ -31,6 +31,6 @@ console.log(joinedVal);
 
 let arr3 = [10, 20, 30, 40, 50];
 
-let stringVal = arr3.toString("+");
+let stringVal = arr3.toString();
 
 console.log(stringVal);

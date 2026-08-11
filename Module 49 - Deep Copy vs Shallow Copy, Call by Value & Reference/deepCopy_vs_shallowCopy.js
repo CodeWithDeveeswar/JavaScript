@@ -20,7 +20,7 @@ obj2.name1 = "Kesavan";
 
 console.log(obj1, obj2);
 
-// Object with Nested Object
+// Nested Object
 
 let person = {
     name1 : "Johny",
@@ -31,9 +31,11 @@ let person = {
     }
 };
 
-// Object - Deep Copy 
+// Shallow Copy with Nested Object
 
 let person2 = {...person, hobbies : {...person.hobbies}};
+
+// Deep Copy with Nested Object
 
 let newObj = JSON.parse(JSON.stringify(person));
 
@@ -45,15 +47,15 @@ console.log(person, person2);
 
 console.log(newObj);
 
-// Array with Nested Array
+// Nested Array
 
 let Arr = [1, 2, 3, [4, 5, 6]];
 
-// Array - Shallow Copy
+// Shallow Copy with Nested Array
 
 let Arr1 = [...Arr];
 
-// Array - Deep Copy
+// Deep Copy with Nested Array
 
 let newArr = JSON.parse(JSON.stringify(Arr));
 
@@ -64,5 +66,4 @@ newArr[3][1] = "Five";
 
 console.log(Arr, Arr1);
 console.log(newArr);
-
 

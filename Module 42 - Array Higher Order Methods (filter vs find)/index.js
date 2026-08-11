@@ -1,4 +1,4 @@
-let emloyees = [
+let employees = [
     {empName : "Kesavan", salary : 150000},
     {empName : "Murugesan", salary : 100000},
     {empName : "John", salary : 120000}
@@ -6,19 +6,19 @@ let emloyees = [
 
 // filter() Method 
 
-let filterData = emloyees.filter(val => val.salary > 110000);
+let filterData = employees.filter(val => val.salary > 110000);
 
 console.log(filterData);
 
-let filterData1 = emloyees.filter(val => val.salary > 110000).fill({id : 1, name1 : "xyz"}); // Chaining Call
+let filterData1 = employees.filter(val => val.salary > 110000).fill({id : 1, name1 : "xyz"}); // Chaining Call
 
 console.log(filterData1);
 
-emloyees.filter(val => console.log(val));
+employees.filter(val => console.log(val));
 
 // find() Method
 
-let filterDataByFind = emloyees.find((val) => { 
+let filterDataByFind = employees.find((val) => { 
     return val.salary > 100000;
 });
 
