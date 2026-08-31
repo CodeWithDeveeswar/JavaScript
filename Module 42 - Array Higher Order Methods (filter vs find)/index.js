@@ -1,3 +1,5 @@
+// Array Higher Order Methods (filter vs find)
+
 let employees = [
     {empName : "Kesavan", salary : 150000},
     {empName : "Murugesan", salary : 100000},

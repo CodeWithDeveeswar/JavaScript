@@ -1,3 +1,5 @@
+// Math Objects
+
 // Math.abs(x)
 
 console.log(Math.abs(0));

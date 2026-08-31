@@ -1,3 +1,5 @@
+// Variable Scope
+
 // var - function variable scope 
 
 function outerFunction(){

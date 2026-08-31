@@ -1,3 +1,5 @@
+// Array Higher Order Methods (reduce Method)
+
 // Sum of Array Elements
 
 let arr = [10, 2, 3, 4, 5];
@@ -30,13 +32,13 @@ let totalVal1 = arr.reduce((accumulator, cElement, index, array) => {return accu
 
 console.log(totalVal1);
 
-let emloyees = [
+let employees = [
     {eName : "Oggy", salary : 10000},
     {eName : "Jack", salary : 20000},
     {eName : "Bob", salary : 30000},
     {eName : "Olivia", salary : 40000}
 ];
 
-let calcToSalary = emloyees.reduce((acc, cElement) => {return acc + cElement.salary}, 0);
+let calcToSalary = employees.reduce((acc, cElement) => {return acc + cElement.salary}, 0);
 
 console.log(calcToSalary);

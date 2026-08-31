@@ -5,3 +5,6 @@ function indexFile(){
 }
 
 indexFile();
+
+// Note: .js file can be treated as a module 
+// by setting "type": "module" in package.json.

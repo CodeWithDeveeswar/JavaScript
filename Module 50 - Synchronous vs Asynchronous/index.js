@@ -1,3 +1,5 @@
+// Synchronous vs Asynchronous
+
 function f1(){
     console.log("First");
 }

@@ -1,50 +1,78 @@
+// Redeclaration & Reinitialization
+
+// 1. Var
+
 // var age = 30; // Declaration & initialization
 
-var age; // Declaration
-age = 40; // initialization or Assigning
+var age;         // Declaration
+age = 40;        // initialization or Assigning
 
-var age = 70; // Redeclaration 
-age = "Eighty"; // Reinitialization or Reassign
+var age = 80;    // Redeclaration 
+age = "Eighty";  // Reinitialization or Reassign
 
 console.log(age);
 
+// 2. let 
+
 // let newAge = 150; // Declaration & initialization
 
-let newAge; // Declaration
-newAge = 150; // initialization or Assigning
+let newAge;          // Declaration
+newAge = 100;        // initialization or Assigning
 
-// let newAge = 30; // Redeclaration is not possible
-
-newAge = "Hundred"; // Reassign
+// let newAge = 30;  // Redeclaration is not possible
+newAge = "Hundred";  // Reassign
 
 console.log(newAge);
 
-const employeeName = "xyz";
+// 3. const 
 
-// employeeName = "abc";
+const employeeName = "xyz"; // Declaration & Initialization
 
-// console.log(employeeName);
+// employeeName = "abc";    // Reassign is not possible
+
+console.log(employeeName);
 
 // Printing Statements
 
-// alert(employeeName);
+// 1. alert()
 
-// document.write(newAge);
-// document.writeln(newAge);
+let alertMessage = "Welcome to JavaScript";
+alert(alertMessage);
 
-// confirm(newAge);
+// 2. write()
 
-// let userAge = prompt("Enter Your Age");
+let writeMessage = "JavaScript";
+document.write(writeMessage);
 
-// console.log(userAge);
+// 3. writeln()
 
-let userAge;
-console.error(userAge);
-console.warn(userAge);
+let writelnMessage = "JavaScript";
+document.writeln(writelnMessage);
 
-console.clear();
+// 4. confirm()
 
+let confirmMessage = "Do you want to continue?";
+confirm(confirmMessage);
 
+// 5. prompt()
 
+let promptMessage = "Enter Your Age";
+let userInput = prompt(promptMessage);
 
+// 6. console.log()
 
+console.log(userInput);
+
+// 7. console.error()
+
+let errorMessage = "Error";
+console.error(errorMessage);
+
+// 8. console.warn()
+
+let warningMessage = "Warning";
+console.warn(warningMessage);
+
+// 9. console.clear()
+
+// console.clear();

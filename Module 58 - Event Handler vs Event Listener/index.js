@@ -1,10 +1,9 @@
-// Event Handler vs Event Listener 
+// Event Handler vs Event Listener
 
 let button1 = document.getElementById("listener");
 let button2 = document.getElementById("handler");
 
 // Event Listener
-// addEventListener() allows multiple events for the same event type.
 
 button1.addEventListener("click", function(){
     console.log("First Listener");
@@ -19,8 +18,6 @@ button1.addEventListener("click", function(){
 });
 
 // Event Handler
-// onclick supports only one handler.
-// Assigning a new function replaces the previous one.
 
 button2.onclick = function(){
     console.log("First Handler");

@@ -9,7 +9,6 @@ function manipulateElements(){
     // newListElement.innerHTML = "<a>Link</a>Item-5";
     // newListElement.textContent = "<a>Link</a>Item-6";
 
-    
     let input = document.querySelector("input");
     
     // console.log(input.value);
@@ -21,7 +20,6 @@ function manipulateElements(){
     let orderList = document.querySelector("ol");
 
     // orderList.append("Text Node", newListElement);
-    
     // orderList.insertBefore(newListElement, orderList.children[2]);
     // orderList.replaceChild(newListElement, orderList.children[2]);
     // orderList.removeChild(orderList.children[0]);

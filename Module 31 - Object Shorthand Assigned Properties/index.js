@@ -1,3 +1,5 @@
+// Object & Methods
+
 let userProfile = {
     userName : "Kesavan",
     age : 25,
@@ -17,6 +19,8 @@ let iceCreamType = userProfile.eat();
 
 console.log(iceCreamType);
 
+// Object Property Access
+
 let vehicle = {
     "vehicleType" : "four-wheeler",
     "price" : 20000,
@@ -30,8 +34,8 @@ console.log(vehicle["fuelType"]);
 console.log(vehicle["seater type"]);
 console.log(vehicle["seater type"][1]);
 
-// Shorthand Assigned Propertiy
-// Dynamic Propertiy
+// Object Shorthand Assigned Properties
+// Dynamic Properties
 
 let uName = "Kesavan";
 let uAge = 30;

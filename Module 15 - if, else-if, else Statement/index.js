@@ -1,4 +1,4 @@
-// if, else-if & else Statement
+// if, else-if, else Statement
 
 /*
 
@@ -20,9 +20,11 @@
 
 */
 
+// Check the hour and display the time period 
+
 let hour = 12;
 
-// else if ladder
+// else-if ladder
 
 if(hour >= 1 && hour <= 6){
     console.log("Early Morning");
@@ -40,7 +42,11 @@ else{
     console.log("It is not an valid hour");
 }
 
+// Check the mark and display the grade 
+
 let mark = 85;
+
+// else-if ladder
 
 if(mark >= 41 && mark <= 60){
     console.log("E-Grade");

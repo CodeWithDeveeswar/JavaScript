@@ -1,3 +1,5 @@
+// Array Methods (indexOf & lastIndexOf)
+
 // indexOf - Search Left to Right
 
 let arr = [10, 20, 30, 40, 50, 10]; 

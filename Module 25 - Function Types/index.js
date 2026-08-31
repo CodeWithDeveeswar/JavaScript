@@ -1,3 +1,5 @@
+// Function Types
+
 // Named Function 
 
 function add(uName){
@@ -24,13 +26,13 @@ arrowFun();
 
 // Higher Order Function And Call Back Function
 
-function function1(){
+function function1(callback){
     console.log("Im a Higher Order Function");
+    callback();
 }
 
 function function2(){
     console.log("Im a Call Back Function");
 }
 
-function1(function2());
-
+function1(function2);

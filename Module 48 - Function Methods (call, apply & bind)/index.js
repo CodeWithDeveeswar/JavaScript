@@ -1,3 +1,5 @@
+// Function Methods (call, apply & bind)
+
 let person = {
     pFName : "Kesavan",
     pLName : "Murugesan"

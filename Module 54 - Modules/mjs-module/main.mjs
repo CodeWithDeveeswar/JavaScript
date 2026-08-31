@@ -12,3 +12,6 @@ function application(){
 }
 
 application(); 
+
+// Note: .mjs files are treated as JavaScript modules by default, 
+// so they can directly use import and export.

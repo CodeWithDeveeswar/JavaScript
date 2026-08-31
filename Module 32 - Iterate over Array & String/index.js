@@ -1,3 +1,5 @@
+// Iterate over Array & String
+
 // Array - For Loop
 
 let arr = [10, 20, 30, 40];

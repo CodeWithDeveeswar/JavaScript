@@ -4,17 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript in HTML</title>
+
+    <!-- Internal JavaScript -->
+    <script>
+        console.log("Hello from Head!");
+    </script>
 </head>
 <body>
+
     <h1>I'm gonna make you dynamic</h1>
+
+    <!-- Inline JavaScript -->
+    <button onclick="alert('Hello JavaScript!')">
+        Click Me
+    </button>
+
+    <!-- Internal JavaScript -->
     <script>
-        // alert("hi")
-        setTimeout(()=> {
-            document.querySelector("h1").innerHTML="I'm Changed"
+        setTimeout(() => {
+            document.querySelector("h1").innerHTML = "I'm Changed";
         }, 4000);
+
         console.log(100);
-        console.log("Javascript");
-        document.write("Javascript INTRO");
+        console.log("JavaScript");
+
+        document.write("JavaScript INTRO");
     </script>
+
+    <!-- External JavaScript -->
+    <script src="index.js"></script>
+
 </body>
 </html>

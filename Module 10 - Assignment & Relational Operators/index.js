@@ -14,7 +14,7 @@ age /= 2; // age = age / 2 ==> 260 / 2 = 130
 
 age %= 2; // age = age % 2 ==> 130 % 2 = 0
 
-age **= 2; // age = age ** 2 ==> 0 ** 2 = 0 (or) age * age ==> 0 * 0 = 0
+age **= 2; // age = age ** 2 ==> 0 ** 2 = 0 
 
 console.log(age);
 
@@ -40,13 +40,13 @@ console.log(40 == 40);    // true
 console.log(40 != '50');  // true
 console.log(40 != 50);    // true
 
-// Equal value and same type
 // Strict Equal to
+// Equal value and same type
 console.log(40 === '40'); // false
 console.log(40 === 40);   // true
 
-// Not equal value and Not same type
 // Strict Not Equal to
+// Not equal value and Not same type
 console.log(40 !== '40'); // true
 console.log(40 !== 40);   // false
 

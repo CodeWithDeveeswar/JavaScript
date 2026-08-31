@@ -1,3 +1,5 @@
+// Array Higher Order Methods (sort, some & every)
+
 // sort() Method
 
 // Ascending

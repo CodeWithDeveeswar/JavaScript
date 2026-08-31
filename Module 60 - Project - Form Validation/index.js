@@ -1,3 +1,5 @@
+// Project - Form Validation
+
 document.getElementById("form-validate").addEventListener('submit', function(event){
     
     event.preventDefault();

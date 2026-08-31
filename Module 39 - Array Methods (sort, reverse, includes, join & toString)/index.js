@@ -1,3 +1,5 @@
+// Array Methods (sort, reverse, includes, join & toString)
+
 // sort() Method
 
 let arr = [5, 1, 4, 6, 2, 8, 10, 20, 15, 45, 101, 111, 26, 345, "&", " "];

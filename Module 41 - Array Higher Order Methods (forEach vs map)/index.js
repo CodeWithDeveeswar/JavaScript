@@ -1,3 +1,5 @@
+// Array Higher Order Methods (forEach vs map)
+
 let fruits = ["Apple", "WaterMelon", "MuskMelon", "Banana"];
 
 // forEach() Method

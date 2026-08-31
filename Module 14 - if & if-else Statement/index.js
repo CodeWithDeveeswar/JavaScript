@@ -27,6 +27,8 @@ if(uAge >= 18){
 
 */
 
+// Check voting eligibility
+
 let uAge1 = 17;
 
 if(uAge1 >= 18){
@@ -35,6 +37,8 @@ if(uAge1 >= 18){
 else{
     console.log("He is not eligible to vote");
 }
+
+// Check password input
 
 let pass_input = true;
 

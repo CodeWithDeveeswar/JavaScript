@@ -1,3 +1,5 @@
+// Object Methods & Prototypal Inheritance
+
 let person = {
     pName : "Johny",
     age : 30

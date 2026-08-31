@@ -1,3 +1,5 @@
+// Project - Calculator
+
 let input = document.querySelector("input");
 
 function addValue(elementVal){

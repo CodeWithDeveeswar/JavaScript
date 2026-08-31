@@ -1,4 +1,4 @@
-// Concatenation
+// Concatenation ( + )
 
 let str = "Hello";
 let str1 = "John";
@@ -18,6 +18,8 @@ let newStr = `Javascript`;
 let newStr1 = `${newStr} is a Scripting Language`;
 
 console.log(newStr1);
+
+// Example
 
 let num = 5;
 let first = 1;

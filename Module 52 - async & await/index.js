@@ -1,3 +1,5 @@
+// Promises
+
 let newPromise = new Promise((fullFilled, failure) => {
     let dataReceived = true;
     if(dataReceived){
@@ -8,6 +10,8 @@ let newPromise = new Promise((fullFilled, failure) => {
         throw new Error("Search Proper Data");
     }
 });
+
+// async & await
 
 async function executePromise(){
     try{

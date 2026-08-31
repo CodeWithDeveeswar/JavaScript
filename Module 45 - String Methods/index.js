@@ -1,3 +1,5 @@
+// String Methods
+
 // charAt() Method
 
 let str = "Hello World";

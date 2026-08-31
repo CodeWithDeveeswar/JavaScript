@@ -1,3 +1,5 @@
+// Promises
+
 let newPromise = new Promise((resolve, reject) => {
     let dataReceived = true;
 

@@ -1,3 +1,5 @@
+// Hoisting (Variables & Functions)
+
 // Variable Declaration Hoisting
 
 /* Before Code Execution - Declaration will come at top

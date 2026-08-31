@@ -28,6 +28,8 @@ let multiElements = document.querySelectorAll("#uniq-para");
 
 console.log(multiElements);
 
+// Creating and Adding a New Element
+
 let newElement = document.createElement("h2");
 
 newElement.innerText = "Manipulating Phase";

@@ -1,3 +1,5 @@
+// Array Methods (splice, pop, push, shift, unshift)
+
 let arr = [100, 200, 300, 400];
 
 // pop() Method
