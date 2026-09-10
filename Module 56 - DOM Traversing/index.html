@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Traversing</title>
+</head>
+<body>
+    <div class="parent">
+        Javascript
+        <div class="child1">Content 1</div>
+        Dynamically Typed
+        <div class="child2">Content 2</div>
+        Programming Language
+        <div class="child3">Content 3</div>
+        Single Threaded
+    </div>
+    <button onclick="traversingParent()">Parent Properties</button>
+    <button onclick="selectChild()">Child Properties</button>
+    <button ondblclick="selectSiblings()">Double Click for Siblings Properties</button>
+    
+    <script src="index.js"></script>
+</body>
+</html>
